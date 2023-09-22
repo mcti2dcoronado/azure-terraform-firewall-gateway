@@ -1,4 +1,3 @@
-/*
 resource "azurerm_virtual_network" "vnetmcti" {
   name                = "vnetmcti-${var.convention}"
   resource_group_name = azurerm_resource_group.mcti.name
@@ -84,4 +83,3 @@ resource "azurerm_application_gateway" "agwmcti" {
     backend_http_settings_name = local.http_setting_name
   }
 }
-*/
