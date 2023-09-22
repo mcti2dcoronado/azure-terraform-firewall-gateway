@@ -1,4 +1,3 @@
-/*
 resource "azurerm_web_application_firewall_policy" "awfmcti" {
   name                = "awfmcti"
   resource_group_name = azurerm_resource_group.mcti.name
@@ -91,4 +90,3 @@ resource "azurerm_web_application_firewall_policy" "awfmcti" {
     }
   }
 }
-*/
