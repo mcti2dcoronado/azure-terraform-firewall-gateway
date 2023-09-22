@@ -1,5 +1,5 @@
 # since these variables are re-used - a locals block makes this more maintainable
-
+/*
 locals {
   backend_address_pool_name      = "${azurerm_virtual_network.vnetmcti.name}-beap"
   frontend_port_name             = "${azurerm_virtual_network.vnetmcti.name}-feport"
@@ -14,3 +14,4 @@ resource "azurerm_resource_group" "mcit" {
   name     = "rg-${var.convention}"
   location = var.location
 }
+*/
