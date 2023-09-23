@@ -68,8 +68,8 @@ resource "azurerm_application_gateway" "agwmcti" {
   
   waf_configuration {
     enabled = true
-    firewall_mode = 'Prevention'
-    rule_set_type = 'Microsoft_BotManagerRuleSet'
+    firewall_mode = "Prevention"
+    rule_set_type = "Microsoft_BotManagerRuleSet"
     rule_set_version = 3.1
   }
 
